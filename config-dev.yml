@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+     defaultZone: http://127.0.0.1:7001/eureka
+     
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center
